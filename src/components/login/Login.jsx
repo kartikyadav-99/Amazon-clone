@@ -69,7 +69,7 @@ const Login = () => {
           </button>
         </form>
         <p>
-          By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use &
+          By signing-in you agree to the amazon  Conditions of Use &
           Sale. Please see our Privacy Notice, our Cookies Notice and our
           Interest-Based Ads Notice.
         </p>
