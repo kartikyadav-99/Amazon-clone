@@ -1,0 +1,84 @@
+.login {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    
+}
+
+
+.login > img {
+    width: 100px;
+    object-fit: contain;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.login__container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 47vh;
+    height: 55vh;
+    position: relative;
+}
+
+
+.login__close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.login__container > h1 {
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.login__container > form > h5 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.login__container > form > input {
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    outline: none;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+    padding: 0 5px;
+}
+
+.login__signInBtn{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.login__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.login__googleSignIn {
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: darkgray;
+}
